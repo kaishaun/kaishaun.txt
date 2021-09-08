@@ -65,8 +65,8 @@ def house_roof(ANGLE, angle, Angle):
 
     
    
-
     turtle.end_fill()
+# this draws the second house.
 def house_2(ANGLE, angle, Angle):
     turtle.begin_fill()
     
@@ -87,6 +87,7 @@ def house_2(ANGLE, angle, Angle):
     turtle.forward(100)
     turtle.right(90)
     turtle.forward(100)
+    turtle.home()
     
     
 
@@ -96,6 +97,9 @@ def house_2(ANGLE, angle, Angle):
     turtle.fillcolor("firebrick")
 
     turtle.end_fill()
+    
+    
+
 
 
 
