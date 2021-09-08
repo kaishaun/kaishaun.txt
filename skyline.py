@@ -60,13 +60,42 @@ def house_roof(ANGLE, angle, Angle):
     turtle.forward(95)
     turtle.right(90)
     turtle.forward(100)
+    turtle.home()
 
 
     
    
 
     turtle.end_fill()
+def house_2(ANGLE, angle, Angle):
+    turtle.begin_fill()
+    
+    turtle.forward(350)
+    turtle.left(90)
+    turtle.forward(100)
+    turtle.left(90)
+    turtle.forward(100)
+    turtle.left(90)
+    turtle.forward(100)
+    turtle.left(180)
+    turtle.forward(100)
+    turtle.right(ANGLE)
+    turtle.forward(100)
+    turtle.right(angle)
+    turtle.forward(100)
+    turtle.right(Angle)
+    turtle.forward(100)
+    turtle.right(90)
+    turtle.forward(100)
+    
+    
 
+
+
+    turtle.color("red")
+    turtle.fillcolor("firebrick")
+
+    turtle.end_fill()
 
 
 
@@ -81,6 +110,7 @@ def main ():
     road()
     house(ANGLE, angle, Angle)
     house_roof(ANGLE, angle, Angle)
+    house_2(ANGLE, angle, Angle)
     
       
 
